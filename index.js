@@ -36,7 +36,7 @@ function login (error,msg){
     }
 }
     function loginHandler(username,password,clbk){
-        if (username="ptomer40"&&password=="12345"){
+        if (username=="ptomer40" &&password=="12345"){
             clbk(null,"LoginSuccess")
         }
         else{
@@ -44,5 +44,5 @@ function login (error,msg){
         }
     }
     loginHandler("ptomer40","12345",login);
-    loginHandler("ptomecsr40","12345",login);
+  
     
