@@ -32,12 +32,12 @@ async function fetchData() {
             `)}
         </table>`;
 
-        root.innerHTML = table;
+        root.innerHTML=table;
     } catch (e) {
         console.log("The error is"+ e);
        
     } finally {
-        loader.innerHTML = '';
+        loader.innerHTML='';
     }
 }
 
